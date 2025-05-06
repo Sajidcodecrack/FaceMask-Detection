@@ -29,7 +29,6 @@ This solution identifies:
 - ✔ **Scalable & Customizable**  
   Easily adaptable to industries such as manufacturing, research labs, hospitals, and chemical plants.
 
----
 
 ## 🎯 Why This Solution?
 
@@ -75,3 +74,30 @@ chemical-mask-detection/
 ├── requirements.txt
 ├── README.md
 └── yolov8_config.yaml         # YOLOv8 training configuration
+```
+## How to Run
+## 1. Clone the Repository
+```
+git clone https://github.com/yourusername/chemical-mask-detection.git
+cd chemical-mask-detection
+```
+## 2. Install Dependencies
+```
+
+ pip install -r requirements.txt
+```
+## 3. Run Real-Time Detection
+   ```
+   python scripts/detect.py --source 0 --weights models/best.pt
+   ```
+## Use Cases
+## Industrial Safety Monitoring
+
+## Hospital Compliance Checks
+
+## Laboratory Protocol Enforcement
+
+## Smart Surveillance Systems
+
+
+
