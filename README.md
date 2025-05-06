@@ -1,19 +1,77 @@
-Chemical Equipment & Face Mask Recognition (YOLOv8 | 91% Accuracy) 🔬😷
-🔹 Project Overview
-Ensuring workplace safety and compliance is crucial, especially in industrial environments, laboratories, and healthcare sectors. This AI-driven solution leverages YOLOv8, a state-of-the-art deep learning model, to detect:
+# 🧪😷 Chemical Equipment & Face Mask Recognition (YOLOv8 | 91% Accuracy)
 
-✅ Chemical Equipment – Identify safety gear, hazardous substances, and specialized tools with high precision.
-✅ Face Mask Compliance – Ensure proper usage of face masks in labs, hospitals, and industrial zones to maintain safety standards.
+Ensuring safety and compliance in laboratories, industrial zones, and healthcare settings is vital. This AI-powered system leverages **YOLOv8**, a cutting-edge object detection model, to detect chemical equipment and ensure **face mask compliance** in real-time.
 
-🔹 Key Features & Capabilities
-✔ High Accuracy (91%+) – Achieved through dataset balancing, augmentation, and transfer learning.
-✔ Real-Time Detection – Low-latency processing for instant alerts using OpenCV & YOLOv8.
-✔ Edge AI & IoT Compatibility – Deployable on Raspberry Pi, Jetson Nano, or cloud-based systems.
-✔ Smart Alerts & Reports – Automatic notifications for non-compliance and safety violations.
-✔ Scalable & Customizable – Adaptable for industries like manufacturing, chemical plants, hospitals, and research labs.
+---
 
-🔹 Why Choose This Solution?
-🔹 Advanced AI Optimization – Custom fine-tuned YOLOv8 model for superior accuracy.
-🔹 Real-World Tested – Successfully deployed in a Microprocessor-based vision system with 91% detection accuracy.
-🔹 Fast & Lightweight – Optimized for both cloud-based and edge deployments.
-🔹 Seamless Integration – API-based and can be embedded into security systems, monitoring tools, and web dashboards.
+## 🔍 Project Overview
+
+This solution identifies:
+- ✅ **Chemical Equipment**: Detects safety gear, lab tools, hazardous containers, and chemical instruments.
+- ✅ **Face Mask Compliance**: Detects presence and correct usage of face masks in real-world environments.
+
+---
+
+## 🚀 Key Features
+
+- ✔ **High Accuracy (91%+)**  
+  Achieved using data augmentation, class balancing, and transfer learning on a curated dataset.
+
+- ✔ **Real-Time Detection**  
+  Fast, low-latency inference using **OpenCV** and **YOLOv8** for instant results.
+
+- ✔ **Edge AI & IoT Ready**  
+  Compatible with **Raspberry Pi**, **Jetson Nano**, and cloud-based systems.
+
+- ✔ **Smart Alerts & Reports**  
+  Non-compliance triggers alerts and logs with timestamped reports.
+
+- ✔ **Scalable & Customizable**  
+  Easily adaptable to industries such as manufacturing, research labs, hospitals, and chemical plants.
+
+---
+
+## 🎯 Why This Solution?
+
+- 🔹 **YOLOv8 Optimized**  
+  Fine-tuned model for industrial-grade performance.
+
+- 🔹 **Field-Tested System**  
+  Successfully deployed in a microprocessor-based vision system with **91%+ detection accuracy**.
+
+- 🔹 **Lightweight & Fast**  
+  Optimized for both **edge** and **cloud** deployments.
+
+- 🔹 **Easy Integration**  
+  REST API and plug-in ready for **security systems**, **dashboards**, and **monitoring tools**.
+
+---
+
+## 🛠️ Tech Stack
+
+- **YOLOv8 (Ultralytics)**
+- **Python**
+- **OpenCV**
+- **PyTorch**
+- **Raspberry Pi / Jetson Nano**
+- **Flask / FastAPI (for API Integration)**
+
+---
+
+## 📁 Directory Structure
+
+```bash
+chemical-mask-detection/
+│
+├── dataset/                   # Annotated images in YOLO format
+├── models/                    # Trained YOLOv8 weights
+├── scripts/
+│   ├── detect.py              # Real-time detection script
+│   ├── train.py               # YOLOv8 training script
+│   └── utils.py               # Helper functions
+├── app/
+│   ├── api.py                 # Flask or FastAPI backend
+│   └── alerts.py              # Notification system
+├── requirements.txt
+├── README.md
+└── yolov8_config.yaml         # YOLOv8 training configuration
